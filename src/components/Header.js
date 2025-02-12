@@ -27,7 +27,6 @@ const Header = () => {
           <div className="hidden md:flex space-x-8">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/services">Services</NavLink>
-            <NavLink href="/work">Our Work</NavLink>
             <NavLink href="/about">About</NavLink>
             <NavLink href="/contact">Contact</NavLink>
           </div>

@@ -1,10 +1,17 @@
-// app/page.js
-import HeroSection from "../components/home/HeroSection";
-import FeaturedClients from "../components/home/FeaturedClients";
-import ProcessTimeline from "../components/home/ProcessTimeline";
-import StatsGrid from "../components/home/StatsGrid";
-import Testimonials from "../components/home/Testimonials";
-import TrustedByCarousel from "@/components/home/TrustedByCarousel";
+import React, { lazy } from "react";
+
+const HeroSection = lazy(() => import("../components/home/HeroSection"));
+const FeaturedClients = lazy(() =>
+  import("../components/home/FeaturedClients")
+);
+const ProcessTimeline = lazy(() =>
+  import("../components/home/ProcessTimeline")
+);
+const StatsGrid = lazy(() => import("../components/home/StatsGrid"));
+const Testimonials = lazy(() => import("../components/home/Testimonials"));
+const TrustedByCarousel = lazy(() =>
+  import("@/components/home/TrustedByCarousel")
+);
 
 export default function Home() {
   return (
