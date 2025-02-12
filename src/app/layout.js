@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import "./globals.css";
 
 export const metadata = {
-  title: "NextWave Digital - Transformative Digital Solutions",
+  title: "Talent Hunters - Transformative Digital Solutions",
   description: "Pioneering digital experiences that drive business growth",
 };
 
