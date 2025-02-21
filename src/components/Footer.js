@@ -45,7 +45,7 @@ const Footer = () => {
           >
             <Link href="/" className="flex items-center gap-2">
               <div className="rounded-lg flex items-center justify-center">
-                <Image src="/logo.png" width={100} height={100} alt="Logo" />
+                <Image src="/Logo.png" width={100} height={100} alt="Logo" />
               </div>
               <span className="text-2xl font-bold">Talent Wave</span>
             </Link>
