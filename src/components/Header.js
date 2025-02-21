@@ -2,9 +2,11 @@
 import Link from "next/link";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 import Image from "next/image";
+import { useState } from "react";
 
 const Header = () => {
   const { scrollY } = useScroll();
+  const [isOpen, setIsOpen] = useState(false);
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const header = document.querySelector("header");
@@ -32,6 +34,39 @@ const Header = () => {
             <NavLink href="/about">About</NavLink>
             <NavLink href="/contact">Contact</NavLink>
           </div>
+          <div className="md:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-gray-600 hover:text-blue-600 transition-colors"
+            >
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          className={`md:hidden mt-2 space-y-2 transition-all duration-300 ${
+            isOpen
+              ? "max-h-screen opacity-100"
+              : "max-h-0 opacity-0 overflow-hidden"
+          } flex flex-col items-center`}
+        >
+          <NavLink href="/">Home</NavLink>
+          <NavLink href="/services">Services</NavLink>
+          <NavLink href="/about">About</NavLink>
+          <NavLink href="/contact">Contact</NavLink>
         </div>
       </nav>
     </header>

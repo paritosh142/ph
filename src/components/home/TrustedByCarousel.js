@@ -10,28 +10,72 @@ import "swiper/css/autoplay";
 const TrustedByCarousel = () => {
   const clients = [
     {
-      name: "Microsoft",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+      name: "Parle Agro",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREgpOFlCOwubK3PdhvxvgsgfVONJMd4V1fjQ&s",
     },
     {
-      name: "Google",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      name: "Britannia",
+      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Britannia_Industries_logo.svg/1200px-Britannia_Industries_logo.svg.png",
     },
     {
-      name: "IBM",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+      name: "Hero",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Hero_MotoCorp.svg/1200px-Hero_MotoCorp.svg.png",
     },
     {
-      name: "Amazon",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      name: "Suzuki",
+      logo: "https://cdn.freebiesupply.com/logos/large/2x/suzuki-logo-png-transparent.png",
     },
     {
-      name: "Salesforce",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg",
+      name: "Haldiram",
+      logo: "https://download.logo.wine/logo/Haldiram's/Haldiram's-Logo.wine.png",
     },
     {
-      name: "Oracle",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+      name: "Apollo",
+      logo: "https://cdn.worldvectorlogo.com/logos/apollo-tyres-logo.svg",
+    },
+    {
+      name: "Medanta",
+      logo: "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1504670742/rpjgrkfsfexubeqvzotp.jpg",
+    },
+    {
+      name: "BlackRock",
+      logo: "https://purepng.com/public/uploads/large/purepng.com-blackrock-logologobrand-logoiconslogos-251519938910ako99.png",
+    },
+    {
+      name: "Wipro",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Wipro_Primary_Logo_Color_RGB.svg",
+    },
+    {
+      name: "Infosys",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
+    },
+    {
+      name: "HCL",
+      logo: "https://banner2.cleanpng.com/20180606/tw/aa85e5kj2.webp",
+    },
+    {
+      name: "Millennium",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Millennium_Hotels_And_Resorts_Logo.png",
+    },
+    {
+      name: "Brillio",
+      logo: "https://lever-client-logos.s3.us-west-2.amazonaws.com/ed9b1f28-604d-4e66-962f-55a70024eb24-1656488321929.png",
+    },
+    {
+      name: "Star Health",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Star_Health_and_Allied_Insurance.svg/2560px-Star_Health_and_Allied_Insurance.svg.png",
+    },
+    {
+      name: "PepsiCo",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a6/PepsiCo_logo.svg",
+    },
+    {
+      name: "Honda",
+      logo: "https://clipart-library.com/images_k/honda-logo-transparent/honda-logo-transparent-6.jpg",
+    },
+    {
+      name: "Renault",
+      logo: "https://www.citypng.com/public/uploads/preview/hd-renault-logo-transparent-background-701751694707700rafepr2bno.png",
     },
   ];
 
