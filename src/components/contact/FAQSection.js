@@ -4,9 +4,9 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "What services does Talent Hunters offer?",
+    question: "What services does Talent Wave offer?",
     answer:
-      "Talent Hunters offers a range of services including tech talent acquisition, executive leadership search, and project-based staffing solutions. We specialize in matching top-tier professionals with innovative companies across various industries.",
+      "Talent Wave offers a range of services including tech talent acquisition, executive leadership search, and project-based staffing solutions. We specialize in matching top-tier professionals with innovative companies across various industries.",
   },
   {
     question: "How long does the hiring process typically take?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     question:
-      "What makes Talent Hunters different from other recruitment agencies?",
+      "What makes Talent Wave different from other recruitment agencies?",
     answer:
       "We combine cutting-edge AI-powered matching technology with deep industry expertise to provide precision-matched candidates that align with both technical requirements and company culture. Our personalized approach, extensive network, and commitment to long-term success set us apart.",
   },

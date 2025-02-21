@@ -29,7 +29,7 @@ export default function HeroSection() {
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
             Transform Your Team with
             <span className="block bg-gradient-to-r from-amber-400 to-orange-300 bg-clip-text text-transparent mt-4">
-              Talent Hunters
+              Talent Wave
             </span>
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">

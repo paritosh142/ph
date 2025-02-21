@@ -4,7 +4,7 @@ import ProcessTimeline from "@/components/services/ProcessTimeline";
 import CTASection from "@/components/services/CTASection";
 
 export const metadata = {
-  title: "Our Services | Talent Hunters",
+  title: "Our Services | Talent Wave",
   description:
     "Explore our range of specialized talent acquisition and staffing services.",
 };

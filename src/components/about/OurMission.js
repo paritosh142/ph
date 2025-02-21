@@ -8,7 +8,6 @@ export default function OurMission() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -24,7 +23,7 @@ export default function OurMission() {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-xl text-gray-600 max-w-3xl mx-auto text-center"
         >
-          At Talent Hunters, we are committed to bridging the gap between
+          At Talent Wave, we are committed to bridging the gap between
           exceptional talent and innovative companies. Our mission is to empower
           businesses with the right people, fostering growth, innovation, and
           success in an ever-evolving global marketplace.

@@ -6,9 +6,9 @@ import Timeline from "@/components/about/Timeline";
 import CTASection from "@/components/about/CTASection";
 
 export const metadata = {
-  title: "About Us | Talent Hunters",
+  title: "About Us | Talent Wave",
   description:
-    "Learn about our mission, values, and the team behind Talent Hunters.",
+    "Learn about our mission, values, and the team behind Talent Wave.",
 };
 
 export default function AboutPage() {

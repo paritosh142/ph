@@ -4,13 +4,15 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "CTO at TechCorp",
     text: "Their solutions transformed our development team's capabilities within weeks. The candidates were exactly what we needed.",
-    avatar: "/avatars/sarah-johnson.jpg",
+    avatar:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnvTbL5WSUuKYddpZI-SXU6JbudFjCtFCGuw&s",
   },
   {
     name: "Michael Chen",
     role: "HR Director @ FinNext",
     text: "The precision in candidate matching saved us hundreds of hours in screening. Exceptional service from start to finish.",
-    avatar: "/avatars/michael-chen.jpg",
+    avatar:
+      "https://forefrontdermatology.com/wp-content/uploads/2021/06/Michael-Chen-800x800-WEB-1.jpg",
   },
 ];
 

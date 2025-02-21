@@ -20,11 +20,11 @@ export default function AboutHero() {
         <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
           Empowering Businesses
           <span className="block bg-gradient-to-r from-amber-400 to-orange-300 bg-clip-text text-transparent pb-3 mt-4">
-            Through Talent Hunters
+            Through Talent Wave
           </span>
         </h1>
         <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-          Discover the story, mission, and people behind Talent Hunters
+          Discover the story, mission, and people behind Talent Wave
         </p>
       </motion.div>
     </section>

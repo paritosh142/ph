@@ -5,9 +5,9 @@ import MapSection from "@/components/contact/MapSection";
 import FAQSection from "@/components/contact/FAQSection";
 
 export const metadata = {
-  title: "Contact Us | Talent Hunters",
+  title: "Contact Us | Talent Wave",
   description:
-    "Get in touch with Talent Hunters for all your talent acquisition needs.",
+    "Get in touch with Talent Wave for all your talent acquisition needs.",
 };
 
 export default function ContactPage() {

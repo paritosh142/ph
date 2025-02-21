@@ -3,13 +3,28 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const teamMembers = [
-  { name: "John Doe", role: "CEO & Founder", image: "/team/john-doe.jpg" },
-  { name: "Jane Smith", role: "COO", image: "/team/jane-smith.jpg" },
-  { name: "Mike Johnson", role: "CTO", image: "/team/mike-johnson.jpg" },
+  {
+    name: "Lee Beattie",
+    role: "Joint CEO",
+    image: "https://www.multyskill.co.za/wp-content/uploads/2018/12/team_2.jpg",
+  },
+  {
+    name: "Jane Smith",
+    role: "Chief Operating Officer",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQGDq1WjPKAlwQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709463182940?e=1745452800&v=beta&t=tLeV8bcY6rGAeBse1M1W-dhXrZvRgT4YuLSWG03jvQY",
+  },
+  {
+    name: "Michael Johnson",
+    role: "Chief Technology Officer",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYo2LUUY1P85VGWGx1O6wDUvRTPjnyFzQ4wA&s",
+  },
   {
     name: "Sarah Brown",
-    role: "Head of Talent Acquisition",
-    image: "/team/sarah-brown.jpg",
+    role: "Head of People Team Transformation",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbreljdnScEB0ZHmsQbF6nEzyh1tuDcUF2qg&s",
   },
 ];
 

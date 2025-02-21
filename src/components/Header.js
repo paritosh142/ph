@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useScroll, useMotionValueEvent } from "framer-motion";
+import Image from "next/image";
 
 const Header = () => {
   const { scrollY } = useScroll();
@@ -15,14 +16,15 @@ const Header = () => {
   });
 
   return (
-    <header className="bg-white/80 sticky top-0 z-50 transition-all duration-300">
-      <nav className="container mx-auto px-6 py-4">
+    <header className="bg-white/80 top-0 z-50 transition-all duration-300">
+      <nav className="container mx-auto px-6 py-1">
         <div className="flex justify-between items-center">
           <Link
             href="/"
-            className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors"
+            className="text-[15px] font-bold text-blue-600 hover:text-blue-700 transition-colors"
           >
-            Talent Hunters
+            <Image src="/Logo.png" width={80} height={80} alt="Logo" />
+            Talent Wave
           </Link>
           <div className="hidden md:flex space-x-8">
             <NavLink href="/">Home</NavLink>
