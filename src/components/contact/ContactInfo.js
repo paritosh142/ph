@@ -42,8 +42,9 @@ export default function ContactInfo() {
             </svg>
           </div>
           <p className="text-gray-700">
-            6th Floor, Good Earth Business Bay -1, Golf Course Rd, Ext, Sector
-            58, Gurugram, Haryana 122101
+            TDI Kingsbury, Sector 61, Sonipat, Haryana 131023
+<br/>
+Office No 31
           </p>
         </motion.div>
       </div>
