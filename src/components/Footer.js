@@ -98,8 +98,9 @@ const Footer = () => {
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-gray-300">
-                      6th Floor, Good Earth Business Bay -1, Golf Course Rd,
-                      Ext, Sector 58, Gurugram, Haryana 122101
+                      TDI Kingsbury, Sector 61, Sonipat, Haryana 131023
+<br/>
+Office No 31
                     </p>
                   </div>
                 </div>
